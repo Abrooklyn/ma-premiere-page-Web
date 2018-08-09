@@ -49,7 +49,7 @@
 }
 
 /*Elements principaux de la page*/
-.bloc_page{
+.container{
 	background: url(img/background.jpg);
 	font-family: gondola_sdregular;
 	color: #181818;
@@ -73,6 +73,7 @@ section h1, footer h1, nav a{
 	flex-direction: column;
 	color: #FFFFFF;
 	border-radius: 10px;
+	text-align: center;
 }
 
 
@@ -104,23 +105,23 @@ section h1, footer h1, nav a{
 
 /*Navigation*/
 
-nav ul{
+.menu ul{
 	list-style-type: none;
 	display: flex;
 }
 
-nav li{
+.menu li{
 	margin-right: 15px;
 }
 
-nav a{
+.menu a{
 	font-size: 1.3em;
 	color: #181818;
 	padding-bottom: 3px;
 	text-decoration: none;
 }
 
-nav a:hover{
+.menu a:hover{
 	color: #760001;
 	border-bottom: 3px solid #760001;
 }
@@ -155,12 +156,12 @@ nav a:hover{
 	position: absolute;
 	right: 5px;
 	bottom: 5px;
-	background: url(img/bouton.jpg) repeat-x;
+	background-image: linear-gradient(60deg, rgba(200,30,30), rgba(200,60,60));
 	border: 1px solid #760001;
 	border-radius: 5px;
 	font-size: 1.2em;
 	text-align: center;
-	padding: 3px 8px 0px 8px;
+	padding: 3px 8px 8px 8px;
 	color: white;
 	text-decoration: none;
 }
